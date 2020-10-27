@@ -1,0 +1,10 @@
+body {
+	padding-top: 30px;
+}
+
+#title {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
