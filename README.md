@@ -19,6 +19,7 @@ Project is created with:
 - CSV
 - Bootstrap
 - CSS
+- HTML
 
 ## Illustrations
 
