@@ -20,7 +20,18 @@
   </head>
   <body>
 	  <div class="container mt-5">
-      <h1>Graphs from CSV</h1>
+      <div class="d-flex justify-content-between align-items-center">
+        <h1>Graphs from CSV</h1>
+
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-outline-dark active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> Top line
+          </label>
+          <label class="btn btn-outline-dark">
+            <input type="radio" name="options" id="option2" autocomplete="off"> Bottom Line
+          </label>
+        </div>
+      </div>
 
       <h2>Sales and revenues per <span>month</span></h2>
       <div id="chart-1" class="mt-5 mb-5"></div>
@@ -30,8 +41,18 @@
 
       <h2>Sales and revenues per <span>section</span></h2>
       <div id="chart-3" class="mt-5 mb-5"></div>
+
+      <h2>Customer and employee satisfaction per <span>month</span></h2>
+      <div id="chart-4" class="mt-5 mb-5"></div>
+
+      <h2>Customer and employee satisfaction per <span>state</span></h2>
+      <div id="chart-5" class="mt-5 mb-5"></div>
+
+      <h2>Customer and employee satisfaction per <span>section</span></h2>
+      <div id="chart-6" class="mt-5 mb-5"></div>
     </div>
 
-	  <script src="scripts/graph.js"></script>
+	  <script src="scripts/data_topline.js"></script>
+	  <script src="scripts/data_bottomline.js"></script>
   </body>
 </html>
