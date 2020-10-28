@@ -16,6 +16,7 @@ function parseData(createGraph) {
 	});
 }
 
+// data for each chart
 function dataPer(data) {
   data.reduce((accumulator, value) => {
     if (!accumulator[value.date]) {
@@ -51,6 +52,7 @@ function dataPer(data) {
 function createGraph(data) {
   dataPer(data);
 
+  // sales and revenues per month
   let chart1 = c3.generate({
     bindto: '#chart-1',
     data: {
@@ -101,6 +103,7 @@ function createGraph(data) {
     }
   });
 
+  // sales and revenues per state
   let chart2 = c3.generate({
     bindto: '#chart-2',
     data: {
@@ -146,6 +149,7 @@ function createGraph(data) {
     }
   });
 
+  // sales and revenues per section
   let chart3 = c3.generate({
     bindto: '#chart-3',
     data: {
@@ -194,6 +198,7 @@ function createGraph(data) {
     }
   });
 
+  // transform chart 3
   setTimeout(function () {
     chart3.transform('bar', 'sales');
   }, 1000);
