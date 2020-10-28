@@ -3,6 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Illustrations](#Illustrations)
+* [Sources](#Sources)
 * [Setup](#setup)
 
 ## General info
@@ -17,7 +19,13 @@ Project is created with:
 - CSV
 - Bootstrap
 - CSS
-	
+
+## Illustrations
+
+![alt text](https://github.com/georginapuig/graps-from-csv/blob/master/assets/top-line-graphs.png?raw=true)
+
+## Sources
+
 ### Graph/Chart Library
 
 c3.js: http://c3js.org/
