@@ -66,6 +66,14 @@ function createGraph2(data) {
         value: ['employee_satisf', 'cust_satisf']
       }  
     },
+    grid: {
+      x: {
+        show: true
+      },
+      y: {
+        show: true
+      }
+    },
     axis: {
       x: {
           type: 'category',
