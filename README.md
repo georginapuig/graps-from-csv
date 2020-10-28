@@ -27,7 +27,7 @@ c3.js: http://c3js.org/
 PapaParse: http://papaparse.com/
 
 ## Setup
-You need a web server.
+To start (usually on port [8000](http://localhost:8000)):
 
 ```bash
 python --version
@@ -38,5 +38,3 @@ Python 2.7.18
 cd graphs-from-csv/
 python -m SimpleHTTPServer
 ```
-
-Visit http://localhost:8000 to see the website.
