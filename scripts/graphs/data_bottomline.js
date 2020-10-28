@@ -104,10 +104,6 @@ function createGraph2(data) {
     },
     zoom: {
         enabled: true
-    },
-    onrendered: function() {
-      d3.select( '.c3-axis-y-label' ).style( 'fill', '#1575b6' );
-      d3.select( '.c3-axis-y2-label' ).style( 'fill', '#ff7f00' );
     }
   });
 
@@ -153,10 +149,6 @@ function createGraph2(data) {
     },
     zoom: {
         enabled: true
-    },
-    onrendered: function() {
-      d3.select( '.c3-axis-y-label' ).style( 'fill', '#1575b6' );
-      d3.select( '.c3-axis-y2-label' ).style( 'fill', '#ff7f00' );
     }
   });
 
@@ -202,10 +194,6 @@ function createGraph2(data) {
     },
     zoom: {
         enabled: true
-    },
-    onrendered: function() {
-      d3.select( '.c3-axis-y-label' ).style( 'fill', '#1575b6' );
-      d3.select( '.c3-axis-y2-label' ).style( 'fill', '#ff7f00' );
     }
   });
 
