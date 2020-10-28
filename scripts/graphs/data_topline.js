@@ -198,6 +198,23 @@ function createGraph(data) {
     }
   });
 
+  // transform chart 1
+  setTimeout(function () {
+    chart1.transform('area-spline', 'sales');
+  }, 1000);
+
+  setTimeout(function () {
+      chart1.transform('area-spline', 'revenue');
+  }, 2000);
+
+  setTimeout(function () {
+      chart1.transform('bar');
+  }, 3000);
+
+  setTimeout(function () {
+      chart1.transform('area-spline');
+  }, 4000);
+
   // transform chart 3
   setTimeout(function () {
     chart3.transform('bar', 'sales');

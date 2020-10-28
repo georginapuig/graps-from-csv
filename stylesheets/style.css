@@ -5,13 +5,3 @@
 span {
   color: #575757;
 }
-
-#top-line-graphs,
-#bootom-line-graphs {
-  transition: 0.3s;
-}
-
-#top-line-graphs:checked,
-#bootom-line-graphs:checked {
-  color:red;
-}
