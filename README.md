@@ -36,12 +36,15 @@ c3.js: http://c3js.org/
 PapaParse: http://papaparse.com/
 
 ## Setup
-To start (on port [8000](http://localhost:8000)):
+
+You need a web server. I used python.
 
 ```bash
 python --version
 Python 2.7.18
 ```
+
+To start (on port [8000](http://localhost:8000)):
 
 ```bash
 cd graphs-from-csv/
