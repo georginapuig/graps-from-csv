@@ -1,4 +1,4 @@
-# graps-from-csv
+# graps-from-csv 📊
 
 ## Table of contents
 * [General info](#general-info)
@@ -27,7 +27,7 @@ c3.js: http://c3js.org/
 PapaParse: http://papaparse.com/
 
 ## Setup
-To start (usually on port [8000](http://localhost:8000)):
+To start (on port [8000](http://localhost:8000)):
 
 ```bash
 python --version
